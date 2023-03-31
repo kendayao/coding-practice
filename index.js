@@ -4,8 +4,13 @@
 // $(".container-one").append(h2El)
 
 
-console.log("Hello Kaeneth")
+function Bellboy (name, age){
+    this.name=name
+    this.age=age
+}
 
+const bellBoy1 = new Bellboy ("Ken", 24)
 
+console.log(bellBoy1.name)
 
 
