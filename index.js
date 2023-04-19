@@ -14,3 +14,7 @@ const bellBoy1 = new Bellboy ("Ken", 24)
 console.log(bellBoy1.name)
 
 
+var fruits = ["apples", "oranges", "bananas", "grapes"]
+
+var chosenFruit = fruits[2]
+console.log(chosenFruit)
