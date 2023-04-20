@@ -18,3 +18,13 @@ var fruits = ["apples", "oranges", "bananas", "grapes"]
 
 var chosenFruit = fruits[2]
 console.log(chosenFruit)
+
+
+
+for(let i = 0; i < fruits.length; i++){
+    console.log(fruits[i])
+    h3El=$("<h3>")
+    h3El.text(fruits[i])
+    h3El.attr("class", "text")
+    $(".container-one").append(h3El)
+}
