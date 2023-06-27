@@ -40,3 +40,9 @@ const evenNumbers = numArray.filter(number => {
     })
 
 console.log(evenNumbers)
+
+
+var row = $("<div")
+row.addClass("pracice")
+row.append("this is practice")
+$("container-one").append(row)
